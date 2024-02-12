@@ -99,11 +99,12 @@ img {
   <main>
     <h1>Page 2</h1>
     <div class="grid">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" alt="Image 1">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" alt="Image 2">
-      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg"  alt="Image 3">
-      <img src="images/blooming_trees.png" alt="Image 4">
-      <img src="images/pink_blossoms.png" alt="Image 5">
+      <img class = "preview" alt = "mere"  src = "paysage-1.jpg" >
+	<img class = "preview" alt = "pont" src = "paysage-2.jpg" >
+  	<img class = "preview"   alt = "lac" src = "paysage-3.jpg">    	
+<img class = "preview"   alt = "bateau" src = "paysage-4.jpg" >
+	<img class = "preview" alt = "neige" src = "paysage-6.jpg" >
+	<img class = "preview" alt = "muraille" src = "paysage-7.jpg">
     </div>
   </main>
   <footer>
