@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Styles spécifiques */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: none;
+}
+
+:focus .skip-link {
+  display: block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+img {
+  border: 3px solid #333;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.flex-nav {
+  display: flex;
+}
+
+.flex-nav ul li a:hover {
+  color: #ff4500;
+}
+
+
+.grid img:nth-child(odd) {
+  border-radius: 0;
+}
+
+
+</style>
+<body>
+  <header>
+    <nav class="flex-nav">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="page2.html">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Page 3</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus scelerisque mauris auctor nunc ultrices, vitae viverra velit vestibulum.</p>
+  </main>
+  <footer>
+    <p>Copyright © 2024 - Mon Site</p>
+  </footer>
+</body>
+</html>
